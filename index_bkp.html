@@ -35,6 +35,7 @@
     <link id="color" rel="stylesheet" href="assets/css/color-1.css" media="screen">
     <!-- Responsive css-->
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
 <style>
 
 
@@ -98,7 +99,7 @@ h1 {
     font-weight: bold !important;
     color: white !important;
     line-height: 1.4 !important;
-    font-size: 40 !important;
+    font-size: 50 !important;
     margin-top: 70 !important;
 }
 h2 {
@@ -162,7 +163,7 @@ h1 {
     font-weight: bold !important;
     color: white !important;
     line-height: 1.4 !important;
-    font-size: 30 !important;
+    font-size: 35 !important;
     margin-top:0 !important;
     text-align:center !important;
 }
@@ -219,65 +220,6 @@ img {
 }
 
 
-
-/* Typewriter effect */
-@keyframes typing {
-  0.0000%, 39% { content: ""; }
-  2%, 38% { content: "c"; }
-  4%, 37% { content: "cl"; }
-  6%, 36% { content: "cli"; }
-  8%, 35% { content: "clie"; }
-  10%, 34% { content: "clien"; }
-  12%, 33% { content: "client"; }
-  14%, 32% { content: "clients";}
-
-  50%, 88% { content: ""; }
-  52%, 87% { content: "v"; }
-  54%, 86% { content: "ve"; }
-  56%, 85% { content: "ven"; }
-  58%, 84% { content: "vend"; }
-  60%, 83% { content: "vendo"; }
-  62%, 82% { content: "vendor"; }
-  63%, 81% {content: "vendors";}
-}
-
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
-}
-
-.typewriter {
-  --caret: currentcolor;
-}
-
-.typewriter::before {
-  content: "";
-  animation: typing 5.7s infinite;
-}
-
-.typewriter::after {
-  content: "";
-  border-right: 1px solid var(--caret);
-  animation: blink 0.5s linear infinite;
-}
-
-@media (prefers-reduced-motion) {
-  .typewriter::after {
-    animation: none;
-  }
-
-  @keyframes sequencePopup {
-    0%, 100% { content: "clients"; }
-    50% { content: "vendors"; }
-  }
-
-  .typewriter::before {
-    content: "clients";
-    animation: sequencePopup 12s linear infinite;
-  }
-}
-
-
 </style>
 
 <style amp-custom="">
@@ -305,8 +247,7 @@ div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,ol,ul,li,figcaption,textarea,input{fon
                 <div class="col-md-6" style="margin-top: 137px;">
                     <a href="landing.html" target="_self"><img src="assets/images/logo/logo.png" style="height: 115;width: 210;margin-left: -10px; margin-top: -74px;;position: relative;">
                     </a>
-                    <span><h1 aria-label="Are your clients credible?" style="margin-top: 70 !important;">Are your&nbsp;<span class="typewriter"></span></h1></span>
-                    <h1 style="margin-top:0 !important;"> credible?</h1>
+                        <h1>Are your clients credible?</h1>
                     <h2 style="font-family: 'Montserrat';font-weight: normal;color:white;font-size: 25;">Know credibility of those you do your business with.</h2>
                 </div>
                 <div id="form" class="col-sm-6" style="padding-top: 75px;padding-bottom:100px;align-items: center;margin-left: 150;width: 40;/* padding-right: inherit; */">
